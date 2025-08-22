@@ -2,11 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Chrispinus Jacob - Cloud Engineer, AWS Certified, IT Student passionate about Cloud Computing, Cybersecurity, and Community Building">
+    <meta name="theme-color" content="#7877c6">
     <title>Chrispinus Jacob - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://images.credly.com">
+    <link rel="preconnect" href="https://github.com">
 </head>
 <body>
+    <!-- HEADER WITH NAVIGATION -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Chrispinus Jacob</h2>
+            </div>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#tech-stack" class="nav-link">Tech Stack</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
     <main>
         <section class="hero">
             <img src="profile-photo.jpg" alt="Chrispinus Jacob" class="profile-photo">
@@ -14,6 +41,13 @@
             <p class="tagline">Cloud Innovator | AWS Learner</p>
             <a href="https://builder.aws.com/community/@chrispinusjacob" target="_blank" class="aws-link">AWS Builder Center Profile</a>
         </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+            <h3>About Me</h3>
+            <p>Hi 👋, I'm Chrispinus Jacob, an IT student passionate about Cloud Computing, Cybersecurity, and Coding. With a strong interest in cloud technologies, I am on a mission to become a Cloud Engineer. I also love community building and leading.</p>
+        </section>
+        <!-- END ABOUT SECTION -->
 
         <section class="fun-facts">
             <h3>Fun Facts About Me</h3>
@@ -38,14 +72,195 @@
           </section>
           
 
-        <section class="aws-journey">
-            <h3>AWS Builder Challenge #2</h3>
-            <p>I'm currently working on the "Build a website on the cloud" challenge, learning to deploy websites using AWS S3 and CloudFront. This site is part of my challenge progress!</p>
-            <a href="https://builder.aws.com/content/31C2WxIDSQive7q2Dv5xNFCmYJj/aws-builder-challenge-2-build-a-website-on-the-cloud?trk=86c76c09-e8f4-4138-badc-604ce7bc5d77&sc_channel=el" target="_blank" class="cta-button">View Challenge Details</a>
+        <!-- AWS PROJECTS SECTION -->
+        <section class="aws-projects" id="projects">
+            <h3>My AWS Projects</h3>
+            <div class="challenge-info">
+                <h4>AWS Builder Challenge #2</h4>
+                <p>I'm currently working on the "Build a website on the cloud" challenge, learning to deploy websites using AWS S3 and CloudFront. This site is part of my challenge progress!</p>
+                <a href="https://builder.aws.com/content/31C2WxIDSQive7q2Dv5xNFCmYJj/aws-builder-challenge-2-build-a-website-on-the-cloud?trk=86c76c09-e8f4-4138-badc-604ce7bc5d77&sc_channel=el" target="_blank" class="challenge-link">View Challenge Details</a>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4>🏗️ Three-Tier Web App</h4>
+                    <p>Built a scalable three-tier web application architecture with separate presentation, application, and data layers.</p>
+                    <div class="tech-stack">EC2 • RDS • VPC • Load Balancer</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/ODWjtHLmxMIEa0z9VaCp" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>⚡ Serverless Data Fetching</h4>
+                    <p>Implemented serverless data fetching solution using AWS Lambda for efficient and cost-effective processing.</p>
+                    <div class="tech-stack">Lambda • API Gateway • DynamoDB</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/mEEkdZ4b378FMnBkQ0ks" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🔗 REST APIs with Lambda</h4>
+                    <p>Created RESTful APIs using AWS Lambda and API Gateway for seamless backend integration.</p>
+                    <div class="tech-stack">Lambda • API Gateway • IAM</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/CaDMZUF52rDVi08QCVKs" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🌐 CloudFront Website Delivery</h4>
+                    <p>Optimized website delivery using CloudFront CDN for improved performance and global reach.</p>
+                    <div class="tech-stack">CloudFront • S3 • Route 53</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/r7EIVmri96JCrpdhCgEm" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🔐 Secrets Manager Security</h4>
+                    <p>Implemented secure secrets management using AWS Secrets Manager for application credentials.</p>
+                    <div class="tech-stack">Secrets Manager • IAM • Lambda</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/KhH9oMgKUSy5hmuCRBPx" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🛡️ Security Monitoring System</h4>
+                    <p>Built comprehensive security monitoring system for threat detection and incident response.</p>
+                    <div class="tech-stack">CloudWatch • SNS • Lambda • IAM</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/KxabWZJaPGGpy4RlmP67" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🔍 GuardDuty Threat Detection</h4>
+                    <p>Configured AWS GuardDuty for intelligent threat detection and security monitoring.</p>
+                    <div class="tech-stack">GuardDuty • CloudWatch • SNS</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/cimQoZR5lCDz3xTa8HM3" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🔒 Data Encryption with KMS</h4>
+                    <p>Implemented data encryption solutions using AWS Key Management Service for enhanced security.</p>
+                    <div class="tech-stack">KMS • S3 • Lambda • IAM</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/7Y08OmndcSTC9bSiVmHc" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🏢 Virtual Private Cloud</h4>
+                    <p>Designed and built a secure Virtual Private Cloud with proper network segmentation and security groups.</p>
+                    <div class="tech-stack">VPC • Subnets • Security Groups • NAT</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/LDYTRj09CPVJYPwbCM5E" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>👤 Cloud Security with IAM</h4>
+                    <p>Configured comprehensive Identity and Access Management policies for secure cloud operations.</p>
+                    <div class="tech-stack">IAM • Policies • Roles • MFA</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/AYBHHEbpe6EJJv3KSi7Y" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🌍 S3 Website Hosting</h4>
+                    <p>Hosted static website on Amazon S3 with proper configuration for web hosting and public access.</p>
+                    <div class="tech-stack">S3 • CloudFront • Route 53</div>
+                    <a href="https://learn.nextwork.org/portfolio/documents/6k03qniu2KPMobUGhFBk" target="_blank" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h4>🎓 AWS Certification Prep App</h4>
+                    <p>Built an interactive AWS certification preparation application using PartyRock for AI-powered learning.</p>
+                    <div class="tech-stack">PartyRock • Bedrock • AI/ML</div>
+                    <a href="https://partyrock.aws/u/chrispinusjacob/MyH4A1s96/AWS-CertPrep-Pro" target="_blank" class="project-link">View Project</a>
+                </div>
+            </div>
         </section>
+        <!-- END AWS PROJECTS SECTION -->
+
+        <!-- CERTIFICATIONS AND BADGES SECTION -->
+        <section class="certifications" id="certifications">
+            <h3>Certifications & Badges</h3>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <a href="https://www.credly.com/badges/a443ac95-ade6-4bed-b201-f643f8377757" target="_blank" class="cert-badge-link">
+                        <img src="https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner" class="cert-badge-img" />
+                    </a>
+                    <h4>AWS Certified Cloud Practitioner</h4>
+                    <p class="cert-status earned">Earned</p>
+                    <p>Foundational understanding of AWS Cloud concepts, services, and terminology.</p>
+                </div>
+                <div class="cert-card">
+                    <a href="https://www.credly.com/badges/7f670182-b67f-4201-9375-e1ea04c836a5" target="_blank" class="cert-badge-link">
+                        <img src="https://cj.html-5.me/wp-content/uploads/2025/05/aws-knowledge-architecting.png" alt="AWS Knowledge: Architecting" class="cert-badge-img" />
+                    </a>
+                    <h4>AWS Knowledge: Architecting</h4>
+                    <p class="cert-status earned">Earned</p>
+                    <p>Knowledge of AWS architectural principles and best practices.</p>
+                </div>
+                <div class="cert-card">
+                    <a href="https://www.credly.com/badges/da1e953c-656e-4511-8a67-51dbae3a7564" target="_blank" class="cert-badge-link">
+                        <img src="https://images.credly.com/images/d2f9e17a-6036-4b42-97b1-0ab2323c4b2f/image.png" alt="AWS Cloud Club Captain: Gold Level" class="cert-badge-img" />
+                    </a>
+                    <h4>AWS Cloud Club Captain: Gold Level</h4>
+                    <p class="cert-status earned">Earned</p>
+                    <p>Leadership and community engagement in AWS Cloud Club activities.</p>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://www.credly.com/users/chrispinus-jacob/badges#credly" target="_blank" class="view-more-btn">View All Badges on Credly</a>
+            </div>
+        </section>
+        <!-- END CERTIFICATIONS AND BADGES SECTION -->
+
+        <!-- TECH STACK SECTION -->
+        <section class="tech-stack" id="tech-stack">
+            <h3>Tech Stack</h3>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h4>Programming Languages</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item">
+                            <img src="https://banner2.cleanpng.com/20180405/doe/avgjobs91.webp" alt="C Programming" />
+                            <span>C</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/python/python.png" alt="Python" />
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/php/php.png" alt="PHP" />
+                            <span>PHP</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/javascript/javascript.png" alt="JavaScript" />
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/html/html.png" alt="HTML5" />
+                            <span>HTML5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4>Cloud & DevOps</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/aws/aws.png" alt="AWS" />
+                            <span>AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/linux/linux.png" alt="Linux" />
+                            <span>Linux</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/docker/docker.png" alt="Docker" />
+                            <span>Docker</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/git/git.png" alt="Git" />
+                            <span>Git</span>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/github/github.png" alt="GitHub" />
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h4>Database</h4>
+                    <div class="tech-icons">
+                        <div class="tech-item">
+                            <img src="https://github.com/github/explore/raw/main/topics/mysql/mysql.png" alt="MySQL" />
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END TECH STACK SECTION -->
 
         <!-- CONTACT FORM SECTION - Added for user contact functionality -->
-        <section class="contact-form">
+        <section class="contact-form" id="contact">
             <h3>Get In Touch</h3>
             <p>Have a question or want to connect? Send me a message!</p>
             <!-- Form message container for success/error messages -->
@@ -69,13 +284,37 @@
             </form>
         </section>
         <!-- END CONTACT FORM SECTION -->
+
+        <!-- SOCIAL MEDIA SECTION -->
+        <section class="social-media">
+            <h3>Connect With Me</h3>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/chrispinus-jacob-3479252ba" target="_blank" class="social-icon linkedin" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+                <a href="https://x.com/jacobchrispinus" target="_blank" class="social-icon twitter" aria-label="X (Twitter)">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    </svg>
+                </a>
+                <a href="https://github.com/chrispinusjacob" target="_blank" class="social-icon github" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        <!-- END SOCIAL MEDIA SECTION -->
     </main>
 
     <footer>
         <p>&copy; 2025 Chrispins Jacob. Built with ❤️ on AWS</p>
     </footer>
     
-    <!-- Contact form JavaScript -->
+    <!-- All JavaScript functionality -->
     <script src="script.js"></script>
+
 </body>
 </html>

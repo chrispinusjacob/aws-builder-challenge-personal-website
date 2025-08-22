@@ -1,0 +1,1 @@
+// Theme functionality removed - website now uses white theme only
